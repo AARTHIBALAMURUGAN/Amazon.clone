@@ -1,0 +1,263 @@
+
+body{
+    background: white;
+}
+.breadcrum{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+}
+.pro-dis{
+    min-height: 100%;
+    padding: 10px 20px;
+    display: flex;
+
+}
+.pro-image{
+    display: flex;
+    gap: 10px;
+
+
+}
+.pro-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.pro-icon img{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.pro-details{
+    margin: 0 30px;
+
+}
+.pro-tit{
+    font-size: 25px;
+
+}
+.brand{
+    margin-top: 5px;
+    color: #007185;
+    font-size: 14px;
+}
+.rating{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.rate{
+   display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rating p,.sell p{
+    color: #007185;
+}
+.sell p span{
+    color: #fff;
+    background-color: #c73500;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.sell h5{
+    font-weight: 400;
+}
+.pro-price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.pro-price div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.pro-price div p{
+    font-size: 26px;
+    color: #c73500;
+}
+.pro-price div h1{
+    font-size:10px;
+    font-weight: 500;
+
+}
+.pro-price h5{
+    color: #565656;
+    font-weight: 400;
+
+}
+.pro-price h5 span{
+    text-decoration: line-through;
+}
+.pro-price p span{
+    color: #007185;
+}
+.pro-price div h1 span{
+    font-size: 26px;
+    font-weight: 500;
+}
+.pro-color-selection{
+    margin: 15px 0;
+}
+.pro-color-option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid #cbcbcb;
+}
+.pro-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width:300px ;
+    margin-bottom: 15px;
+
+}
+.pro-desc h1{
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+.pro-desc ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+.pro-purchase{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 20px;
+}
+.pro-purchase .tit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-purchase .price{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.pro-purchase .price span{
+    font-size: 26px;
+    padding: 2px;
+}
+.pro-purchase .gap{
+    margin: 15px 0;
+    
+}
+.pro-purchase .gap p span{
+    color: #007185;
+}
+.loc{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #007185;
+}
+.stock{
+    margin: 15px 0;
+    color: green;
+    font-weight: 400;
+}
+.pro-quantity{
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #efefef;
+    border-color: #c1c1c1;
+}
+.but{
+    outline: none;
+    border: none;
+    background: #ffd814;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.but1{
+    background-color: #ffa41c;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+     margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.seller {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4px;
+    font-size: 14px;
+    color: #565656;
+}
+.seller span{
+    color: #007185;
+}
+.pro-purchase hr{
+    margin: 20px 0;
+
+}
+.add{
+    width: 100%;
+    padding: 8PX 15PX;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: start;
+    background: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:900px){
+    
+    .pro-dis{
+        flex-wrap: wrap;
+
+    }
+
+}
+@media only screen and (max-width:600px){
+    .pro-icon{
+     display: none;
+    
+}
+.pro-main img{
+    width: 100%;
+    padding: 20px;
+
+
+}
+.loc,.language{
+    display: none;
+}
+.option{
+    padding: 6px 8px;
+}
+.option p{
+    display: none;
+}
+.pro-purchase{
+    max-width: 90%;
+    margin: 20px auto 10px;
+}
+}
